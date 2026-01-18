@@ -1,4 +1,5 @@
 .button {
+  display: block;
   padding: 16px 32px;
   color: var(--color-primary-light);
   background-color: var(--color-brand-normal);
@@ -6,9 +7,9 @@
   font-weight: 600;
   border-radius: 8px;
   cursor: pointer;
-}
 
-.button:hover {
+  &:hover {
   color: var(--color-brand-dark);
   background-color: transparent;
+}
 }
