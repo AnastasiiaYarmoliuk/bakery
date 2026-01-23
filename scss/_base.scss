@@ -15,7 +15,7 @@ body {
 
   @media screen and (min-width: $bp-tablet) {
     font-size: 18px;
-  font-weight: 400;
+    font-weight: 400;
   }
 }
 
@@ -33,6 +33,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 a {
